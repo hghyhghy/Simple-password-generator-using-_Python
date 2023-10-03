@@ -11,27 +11,27 @@ import random
 
 s1 = string.ascii_lowercase
 
-# print(s1)
+print(s1)
 
 # printing upper case characters
 
 
 s2 = string.ascii_uppercase
 
-# print(s2)
+print(s2)
 
 
 # printing the digits
 
 s3 = string.digits
 
-# print(s3)
+print(s3)
 
 # printing the punctuation
 
 s4 = string.punctuation
 
-# print(s4)
+print(s4)
 
 # taking the inpu from the user
 
@@ -53,19 +53,19 @@ s.extend(list(s4))
 # printing the etended  list
 
 
-# print(s)
+print(s)
 
 # shuffling the elements from the extended list s
 
-# random.shuffle(s)
+random.shuffle(s)
 
-# print(s)
+print(s)
 
 # now we have to extraxt five elements from the list
 
-# print("Your password is :")
+print("Your password is :")
 
-# print("".join(s[0:plen]))
+print("".join(s[0:plen]))
 
 # the join function concatenate the all 5 five values without any space  / empty delimiter
 
